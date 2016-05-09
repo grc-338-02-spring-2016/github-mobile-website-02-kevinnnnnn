@@ -1,23 +1,12 @@
 body {
 	height: auto;
 	width: auto;
-	position:fixed;
 }
 h, p {
 	color: white;
 	text-align: center;
 	font-size: .8em;
 	font-family: 'Blackoak Std', sans-serif;
-}
-#llamabox {
-	height: 150px;	
-	width: 300px;
-	margin-left: -30px;
-	background-image: url(../pix/llamabw.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	float:left;
-	position:relative;
 }
 .Header {
 	foreground-color: rgba(255,255,255,.8);
@@ -27,12 +16,24 @@ h, p {
 	position:relative;
 	text-align: right;
 }
+#llamabox {
+	height: 150px;	
+	width: 275px;
+	margin-left: -30px;
+	background-image: url(../pix/llamabw.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float:left;
+	position:relative;
+	display:inline;
+}
 .empty {
 	background-color: #fff;
-	position:fixed;
 	float:left;
-	height: 150px;
+	height: 75px;
 	width: 300px;
+	position:relative;
+	display:inline;
 }
 .doubleempty {
 	background-color: #fff;
@@ -40,6 +41,7 @@ h, p {
 	width: 400px;
 	float:left;
 	position:relative;
+	display:inline;
 }
 .prof {
 	background-color:black;
@@ -49,17 +51,22 @@ h, p {
 	float:right;
 	text-align:center;
 	position:relative;
+	display:inline;
 }
 .pers {
-	float:left;
+	float: left;
 	height: 150px;	
 	width: 300px;
+	position:relative;
+	display:inline;
 }
 .etc {
 	height: 150px;	
 	width: 300px;
-	float:left;
+	float:right;
 	color: #9F9;
+	position:relative;
+	display:inline;
 }
 #nav {
 	text-decoration: none;
@@ -67,4 +74,5 @@ h, p {
 a:link {
 	text-decoration: none;
 	color:white;
+	background-color:black;
 }
