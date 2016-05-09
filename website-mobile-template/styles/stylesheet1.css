@@ -1,0 +1,70 @@
+body {
+	height: auto;
+	width: auto;
+	position:fixed;
+}
+h, p {
+	color: white;
+	text-align: center;
+	font-size: .8em;
+	font-family: 'Blackoak Std', sans-serif;
+}
+#llamabox {
+	height: 150px;	
+	width: 300px;
+	margin-left: -30px;
+	background-image: url(../pix/llamabw.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float:left;
+	position:relative;
+}
+.Header {
+	foreground-color: rgba(255,255,255,.8);
+	background-color:black;
+	height: 100px;
+	width: 500px;
+	position:relative;
+	text-align: right;
+}
+.empty {
+	background-color: #fff;
+	position:fixed;
+	float:left;
+	height: 150px;
+	width: 300px;
+}
+.doubleempty {
+	background-color: #fff;
+	height: 150px;
+	width: 400px;
+	float:left;
+	position:relative;
+}
+.prof {
+	background-color:black;
+	height: 150px;
+	width: 300px;
+	margin-left:-70px;
+	float:right;
+	text-align:center;
+	position:relative;
+}
+.pers {
+	float:left;
+	height: 150px;	
+	width: 300px;
+}
+.etc {
+	height: 150px;	
+	width: 300px;
+	float:left;
+	color: #9F9;
+}
+#nav {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color:white;
+}
