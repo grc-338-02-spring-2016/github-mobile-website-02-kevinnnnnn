@@ -85,9 +85,12 @@ a:link {
 a:hover {
 	color:black;
 	opacity:.5;
+    font-size:2em;
+    background-color:hotpink;
+    outline: 2px solid black;
 }
 a:visited{
-	color:#999;
+    color:#666;
 }
 .perspage {
 	background-image: url(../pix/personalinterests.png);
@@ -107,4 +110,17 @@ p.persinformations {
 	margin-left: 2.5em;
 	font-family: "Comic Sans MS", cursive;
 	line-height:1.3em;
+}
+.resume {
+    color:black;
+}
+@media only screen and (min-width:768px) {
+    .Header {
+        text-align:left;
+        max-width: 768px;
+    }
+    #llamabox {
+        background-repeat: repeat-x;
+        position:relative;
+    }
 }
